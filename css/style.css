@@ -1,0 +1,147 @@
+/* This makes width and height easier to work with on the whole page. */
+* {
+    box-sizing: border-box;
+}
+
+/* Giving the page some space and a soft background makes it easier to read. */
+body {
+    margin: 0;
+    padding: 2rem 1rem;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #f3f7ff 0%, #edf3ff 100%);
+    color: #1f2937;
+    font-family: Arial, "Helvetica", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Keeping the content centered and stopping it from getting too wide. */
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Setting up the navigation so the links sit neatly in a row. */
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+    background: #ffffff;
+    border: 1px solid #dbe7f5;
+    border-radius: 12px;
+    box-shadow: 0 5px 14px rgba(37, 99, 235, 0.1);
+}
+
+nav a {
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    color: #1d4ed8;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+/* Changing the color when someone points at a link makes it easier to notice. */
+nav a:hover,
+nav a:focus {
+    background: #eaf1ff;
+    color: #1e40af;
+}
+
+/* Making the headings stand out from the regular text. */
+h1,
+h2 {
+    margin-top: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #1d4ed8;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+p {
+    margin: 0 0 1rem;
+    color: #475569;
+}
+
+/* Giving each section its own card makes the page easier to scan. */
+section {
+    margin: 1.5rem auto;
+    padding: 2rem;
+    background: #ffffff;
+    border: 1px solid #dbe7f5;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.12);
+}
+
+/* Putting the image on its own line and rounding its corners. */
+.about img {
+    display: block;
+    margin-bottom: 1rem;
+    border-radius: 12px;
+}
+
+/* Adding space between skills keeps the list from feeling crowded. */
+.skills ul {
+    padding-left: 1.25rem;
+}
+
+.skills li {
+    margin-bottom: 0.5rem;
+}
+
+/* Making the labels clear helps people know what to enter in each field. */
+.contact label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.35rem;
+    color: #1f2937;
+}
+
+
+
+
+.contact button {
+    margin-top: 0.5rem;
+    padding: 0.65rem 1.5rem;
+    background: #2563eb;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* I will add the button hover style later :)  !
+
+.contact button:hover,
+.contact button:focus {
+    background: #1d4ed8;
+} */
+
+/* Removing the underline gives these links a cleaner look. */
+a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+/* Adding space above the footer separates it from the content. */
+footer {
+    text-align: center;
+    padding-top: 1rem;
+}
