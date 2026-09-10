@@ -9,4 +9,3 @@ index.html
 css/style.css
 images/ahmadkaj.jpg
 ```
-## Adding what I already know in css 
