@@ -10,7 +10,7 @@ body {
     min-height: 100vh;
     background: linear-gradient(180deg, #f3f7ff 0%, #edf3ff 100%);
     color: #1f2937;
-    font-family: Arial, "Helvetica", sans-serif;
+    font-family: Arial, "Helvetica", sans-serif;  
     font-size: 16px;
     line-height: 1.6;
 }
@@ -124,17 +124,13 @@ section {
     font-size: 1rem;
     border: none;
     border-radius: 8px;
-    cursor: pointer;
 }
 
-/* I will add the button hover style later :)  !
 
-.contact button:hover,
-.contact button:focus {
-    background: #1d4ed8;
-} */
 
-/* Removing the underline gives these links a cleaner look. */
+/* Removing the underline gives these links a cleaner look. 
+Thanks for reading my code Mr have a nice day 
+ */
 a {
     color: #2563eb;
     text-decoration: none;
